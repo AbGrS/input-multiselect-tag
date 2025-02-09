@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  border: 0px;
+  outline: none;
+}
+
+.container {
+  border: 2px solid;
+  display: flex;
+}
+
+.searchResults {
+  position: absolute;
+  top: 25px;
+  border: 2px solid;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.inputAndResultsContainer {
+  position: relative;
+}
+
+.chipsStyle {
+  background: grey;
+  border-radius: 2px;
+}
